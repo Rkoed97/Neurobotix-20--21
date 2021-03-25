@@ -1,7 +1,7 @@
 package ro.cnmv.neuro.teamcode.Testing;
 
-import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
+import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.hardware.DcMotor;
 
 @Autonomous(name="One Motor 800", group="Autonomous")

@@ -67,6 +67,18 @@ public class Drivetrain {
         leftRear.setPower(0);   rightRear.setPower(0);
     }
 
+    public void MoveUsingPID(double distance)
+    {
+        //dist in MM
+
+
+    }
+
+    public void update(double pos, double error)
+    {
+        ;
+    }
+
     public void Turn(double angle, double power) {
         angle *= 0.01745329251994329576923690768489;
         int ticksNeeded = (int)(ticksPerMotorTurn * (robotDiagonal / 2 * angle) / wheelCircumference);
